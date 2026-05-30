@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import { MessageCircle } from 'lucide-react'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { ContactFormValues } from '@/types'
 
@@ -62,8 +63,7 @@ export default function Contact() {
       <div className="mx-auto max-w-7xl">
         <SectionHeader
           label="// 08 - CONTACT"
-          title="Let's grow your business"
-          description="Tell us your business type, location, current challenge, and the service you need first."
+          title="Let's Talk"
           className="mb-10"
         />
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
@@ -77,9 +77,15 @@ export default function Contact() {
             <div className="section-card rounded-3xl p-8">
               <p className="text-sm uppercase tracking-[0.3em] text-cyan">Get in Touch</p>
               <h3 className="mt-4 text-3xl font-bold text-white">Talk to VrindavanDev</h3>
-              <p className="mt-4 text-body text-text-secondary">
-                Tell us your business type, location, current challenge, and whether you need a website, Google Maps ranking, Meta & Google ads, WhatsApp CRM, or full monthly growth.
-              </p>
+              <Link
+                href="https://wa.me/917906630435"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary mt-6 inline-flex w-full items-center justify-center gap-2 text-sm font-semibold"
+              >
+                <MessageCircle className="h-4 w-4" />
+                Chat on WhatsApp
+              </Link>
               <div className="mt-8 space-y-4 text-sm text-text-secondary">
                 <div className="flex items-start gap-3">
                   <span className="mt-1 text-gold-primary min-w-[70px]">Location</span>

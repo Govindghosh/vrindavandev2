@@ -21,13 +21,17 @@ export default function Footer() {
           <p className="text-text-secondary">
             Building digital empires from the holy city.
           </p>
+          <p className="text-text-secondary">
+            Phone: <Link href="tel:+917906630435" className="hover:text-gold-primary">+91 79066 30435</Link>
+          </p>
         </div>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
           <div className="flex flex-wrap items-center gap-4 text-sm text-text-secondary">
-            <Link href="/#about" className="hover:text-gold-primary">About</Link>
             <Link href="/#services" className="hover:text-gold-primary">Services</Link>
-            <Link href="/#projects" className="hover:text-gold-primary">Work</Link>
+            <Link href="/#results" className="hover:text-gold-primary">Results</Link>
+            <Link href="/#founder" className="hover:text-gold-primary">Founder</Link>
+            <Link href="/#faq" className="hover:text-gold-primary">FAQ</Link>
             <Link href="/#contact" className="hover:text-gold-primary">Contact</Link>
           </div>
           <div className="flex items-center gap-4 border-t border-white/5 pt-4 sm:border-t-0 sm:pt-0">

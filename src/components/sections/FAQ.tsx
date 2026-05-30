@@ -27,6 +27,16 @@ const faqs = [
     answer:
       'Paid campaigns can start bringing enquiries faster once creatives, targeting, and landing pages are ready. SEO and Google Maps growth usually needs consistent work, but the goal is always practical: more calls, bookings, walk-ins, and WhatsApp chats.',
   },
+  {
+    question: 'What is your payment process?',
+    answer:
+      'Most projects start with a confirmed scope and an advance payment. The remaining amount is collected by milestone or before launch, depending on the project size and timeline.',
+  },
+  {
+    question: 'Do you offer monthly packages?',
+    answer:
+      'Yes. Monthly packages are available for Google Maps SEO, Meta ads, content, reporting, website care, WhatsApp follow-ups, and ongoing growth support.',
+  },
 ]
 
 export default function FAQ() {
@@ -44,7 +54,6 @@ export default function FAQ() {
           <SectionHeader
             label="// 07 - FAQ"
             title="Frequently asked questions"
-            description="Clear answers for local businesses before starting a growth project with VrindavanDev."
           />
         </motion.div>
 

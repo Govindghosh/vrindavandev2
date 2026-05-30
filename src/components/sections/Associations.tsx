@@ -30,12 +30,11 @@ export default function Industries() {
         >
           <SectionHeader
             label="// 02 - ASSOCIATIONS"
-            title="We build local success stories for Vrindavan businesses"
-            description="Focused growth systems for the business types people actually search, call, visit, and book around Vrindavan and Mathura."
+            title="Who We Work With"
           />
         </motion.div>
 
-        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5 lg:gap-5">
+        <div className="mt-10 flex gap-4 overflow-x-auto pb-3 sm:grid sm:grid-cols-3 sm:overflow-visible sm:pb-0 lg:grid-cols-5 lg:gap-5">
           {associations.map((item, index) => (
             <motion.div
               key={item.name}
@@ -43,7 +42,7 @@ export default function Industries() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.45, delay: index * 0.04 }}
-              className="section-card group relative flex h-[92px] items-center justify-center overflow-hidden rounded-2xl px-4 transition duration-300 hover:border-[var(--tile-color)] hover:bg-[rgba(255,255,255,0.05)]"
+              className="section-card group relative flex h-[92px] min-w-[220px] items-center justify-center overflow-hidden rounded-2xl px-4 transition duration-300 hover:border-[var(--tile-color)] hover:bg-[rgba(255,255,255,0.05)] sm:min-w-0"
               style={{ '--tile-color': item.color } as CSSProperties}
             >
               <div className="absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100" style={{ background: `radial-gradient(circle at 50% 0%, ${item.color}26, transparent 62%)` }} />

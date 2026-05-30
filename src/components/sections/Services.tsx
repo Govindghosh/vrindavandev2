@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Globe, MapPin, Megaphone, Cpu, MessageCircle, Palette, Video, MonitorPlay, Sparkles } from 'lucide-react'
@@ -101,15 +102,29 @@ function ServicesOfferCTA() {
 }
 
 export default function Services() {
+  const [showAll, setShowAll] = useState(false)
+  const visibleServices = showAll ? services : services.slice(0, 3)
+
   return (
     <section id="services" className="section">
       <div className="mx-auto max-w-7xl">
         <ServicesHeader />
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, index) => (
+          {visibleServices.map((service, index) => (
             <ServiceCard key={service.id} service={service} index={index} />
           ))}
         </div>
+        {!showAll ? (
+          <div className="mt-8 text-center">
+            <button
+              type="button"
+              onClick={() => setShowAll(true)}
+              className="btn btn-ghost inline-flex items-center justify-center text-sm font-semibold"
+            >
+              + Show 5 more services
+            </button>
+          </div>
+        ) : null}
         <ServicesOfferCTA />
       </div>
     </section>

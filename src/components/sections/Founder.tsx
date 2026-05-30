@@ -1,5 +1,4 @@
-import React from 'react';
-import { SectionHeader } from '@/components/ui/SectionHeader';
+import { SectionHeader } from '@/components/ui/SectionHeader'
 
 export default function Founder() {
   return (
@@ -13,8 +12,8 @@ export default function Founder() {
       <div className="mx-auto max-w-5xl px-5">
         <SectionHeader
           label="// 06 - FOUNDER"
-          title="Meet the Visionary Behind Vrindavan Dev"
-          description="Our founder blends local expertise with cutting‑edge technology to drive growth for temples, hotels, and businesses."
+          title="Meet the Founder"
+          description="Local business growth needs practical execution, clear tracking, and fast follow-up."
         />
         <div className="mt-10 flex flex-col items-center gap-8 md:flex-row md:items-center">
           <div className="h-48 w-48 overflow-hidden rounded-full border border-[rgba(212,175,55,0.22)] bg-[rgba(255,255,255,0.04)] shadow-lift">
@@ -23,11 +22,11 @@ export default function Founder() {
           <div className="text-center md:text-left">
             <h3 className="mb-2 text-2xl font-bold text-white">Kanchan</h3>
             <p className="max-w-prose text-[var(--text-secondary)]">
-              Founder bio goes here. Highlight experience, passion for local businesses, and commitment to digital growth.
+              Kanchan leads VrindavanDev with a focus on websites, Google Maps visibility, Meta ads, WhatsApp lead systems, and practical automation for local businesses. The work is built around one goal: helping shops, hotels, restaurants, service providers, and growing teams turn online attention into real enquiries. Every project is planned with mobile-first design, simple reporting, and follow-up systems that local teams can actually use.
             </p>
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

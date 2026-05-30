@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 import { Gift, Megaphone, Phone, X } from 'lucide-react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
-import { FloatingDock } from '@/components/ui/floating-dock'
 
 const phoneNumber = '+917906630435'
 const whatsappUrl = 'https://wa.me/917906630435?text=Hi%20VrindavanDev%2C%20I%20want%20more%20leads%20for%20my%20business.'
@@ -67,20 +66,33 @@ export default function FloatingLeadActions() {
     }
   }, [])
 
-  const dockItems = socialLinks.map((social) => {
-    const Icon = social.icon
-    return {
-      title: social.label,
-      icon: <Icon className="h-full w-full" style={{ color: social.color }} />,
-      href: social.href,
-    }
-  })
-
   return (
     <>
-      <div className="fixed right-3 top-1/2 -translate-y-1/2 z-[9996] md:left-3 md:right-auto" aria-label="Social media links">
-        <FloatingDock items={dockItems} />
-      </div>
+      <motion.div
+        drag
+        dragMomentum={false}
+        dragElastic={0.08}
+        whileDrag={{ scale: 1.04 }}
+        className="fixed right-4 top-[42%] z-[9996] hidden cursor-grab flex-col gap-3 rounded-2xl border border-[rgba(212,175,55,0.22)] bg-[rgba(10,11,18,0.88)] p-2 shadow-2xl backdrop-blur-xl active:cursor-grabbing md:flex"
+        aria-label="Social media links"
+      >
+        {socialLinks.map((social) => {
+          const Icon = social.icon
+          return (
+            <a
+              key={social.label}
+              href={social.href}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] transition hover:border-[rgba(212,175,55,0.35)] hover:bg-white/[0.08]"
+              aria-label={social.label}
+              title={social.label}
+            >
+              <Icon className="h-5 w-5" style={{ color: social.color }} />
+            </a>
+          )
+        })}
+      </motion.div>
 
       {showOffer && (
         <div className="fixed inset-x-3 top-[88px] z-[9997] mx-auto max-w-md rounded-2xl border border-[rgba(212,175,55,0.28)] bg-[rgba(10,11,18,0.94)] p-3 shadow-2xl backdrop-blur-xl sm:top-auto sm:bottom-6 sm:left-6 sm:right-auto sm:max-w-sm">
@@ -130,6 +142,13 @@ export default function FloatingLeadActions() {
           </Link>
         </div>
       )}
+
+      <Link
+        href="/#contact"
+        className="fixed bottom-5 left-4 z-[9997] inline-flex min-h-12 items-center justify-center rounded-full border border-[rgba(212,175,55,0.28)] bg-[rgba(10,11,18,0.94)] px-5 text-sm font-bold text-white shadow-2xl backdrop-blur-xl transition hover:border-[#ff5b24] hover:bg-[#ff5b24] sm:hidden"
+      >
+        Get a Quote
+      </Link>
 
       <motion.a
         href={whatsappUrl}

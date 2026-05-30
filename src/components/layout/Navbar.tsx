@@ -5,9 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Phone } from 'lucide-react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import { Menu, X } from 'lucide-react'
 
 import { sections } from '@/lib/utils'
 import { cn } from '@/lib/utils'
@@ -16,6 +14,10 @@ type SectionPosition = {
   id: string
   top: number
 }
+
+const mobileSections = sections.filter((section) =>
+  ['services', 'results', 'faq', 'founder', 'contact'].includes(section.id)
+)
 
 export default function Navbar() {
   const pathname = usePathname()
@@ -118,13 +120,6 @@ export default function Navbar() {
 
         {/* Mobile menu toggle and actions */}
         <div className="flex items-center gap-2 xl:hidden">
-          <a
-            href="tel:+917906630435"
-            className="inline-flex h-11 w-11 items-center justify-center border border-white/20 bg-black text-gold-primary transition hover:border-[#ff5b24] hover:text-[#ff5b24]"
-            aria-label="Call VrindavanDev"
-          >
-            <Phone className="h-5 w-5" />
-          </a>
           <button
             type="button"
             aria-label="Toggle menu"
@@ -146,7 +141,7 @@ export default function Navbar() {
             className="fixed inset-0 z-[9997] overflow-y-auto bg-black px-8 pb-10 pt-24 xl:hidden"
           >
             <div className="flex flex-col gap-6 text-left">
-              {sections.map((section, i) => (
+              {mobileSections.map((section, i) => (
                 <Link
                   key={section.id}
                   href={`/#${section.id}`}
@@ -166,28 +161,6 @@ export default function Navbar() {
                   </motion.span>
                 </Link>
               ))}
-              <Link
-                href="/#contact"
-                onClick={() => setMenuOpen(false)}
-                className="mt-2 inline-flex min-h-[58px] items-center justify-center border border-white/20 px-6 text-base font-bold text-white transition hover:border-[#ff5b24] hover:bg-[#ff5b24]"
-              >
-                {'Get a Quote ->'}
-              </Link>
-              
-              <div className="mt-8 flex items-center justify-center gap-6 border-t border-white/10 pt-8">
-                <a href="https://facebook.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-[#ff5b24] transition duration-200" aria-label="Facebook">
-                  <FaFacebookF className="h-6 w-6" />
-                </a>
-                <a href="https://instagram.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-[#ff5b24] transition duration-200" aria-label="Instagram">
-                  <FaInstagram className="h-6 w-6" />
-                </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-[#ff5b24] transition duration-200" aria-label="LinkedIn">
-                  <FaLinkedinIn className="h-6 w-6" />
-                </a>
-                <a href="https://x.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-[#ff5b24] transition duration-200" aria-label="X">
-                  <FaXTwitter className="h-6 w-6" />
-                </a>
-              </div>
             </div>
           </motion.div>
         )}

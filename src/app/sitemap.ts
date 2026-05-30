@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://vrindavandev.in/#projects',
+      url: 'https://vrindavandev.in/#results',
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,

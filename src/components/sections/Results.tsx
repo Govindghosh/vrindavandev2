@@ -85,21 +85,12 @@ export default function Results() {
   return (
     <section id="results" className="section">
       <div className="mx-auto max-w-7xl space-y-12">
-        <SectionHeader
-          label="// 04 - RESULTS"
-          title="Proven Impact for Local Businesses"
-          description="Real numbers that demonstrate the growth you can expect."
-        />
+        <SectionHeader label="// 04 - RESULTS" title="Our Results" />
 
-        <div className="space-y-6 pt-6 pb-12 md:pb-24">
-          <h3 className="font-display text-lg font-bold uppercase tracking-widest text-text-muted">
-            Our impact in numbers
-          </h3>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {metrics.map((metric, index) => (
-              <ResultCard key={metric.label} metric={metric} index={index} />
-            ))}
-          </div>
+        <div className="grid gap-8 pb-12 pt-6 sm:grid-cols-2 lg:grid-cols-4 md:pb-24">
+          {metrics.map((metric, index) => (
+            <ResultCard key={metric.label} metric={metric} index={index} />
+          ))}
         </div>
       </div>
     </section>

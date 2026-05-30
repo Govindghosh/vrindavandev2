@@ -37,7 +37,6 @@ export default function Testimonials() {
         <SectionHeader
           label="// 01 - TESTIMONIALS"
           title="What Our Clients Say"
-          description="Real feedback from local businesses who trusted VrindavanDev for websites, Google Maps SEO, CRM, and automation."
         />
 
         <AnimatedTestimonials testimonials={testimonials} autoplay className="mt-12" />
