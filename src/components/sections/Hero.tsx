@@ -65,6 +65,9 @@ export default function Hero() {
               <BarChart3 className="h-4 w-4" />
             </Link>
           </div>
+          <p className="text-sm font-medium text-text-secondary">
+            For Vrindavan - Mathura - Agra - Delhi NCR businesses
+          </p>
         </div>
 
         <motion.div
