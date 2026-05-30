@@ -1,0 +1,546 @@
+
+> vrindavandev@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 19.7s (1281 modules)
+ GET / 200 in 21258ms
+ ✓ Compiled in 6.4s (621 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\3.pack.gz_' -> 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\3.pack.gz'
+ ✓ Compiled in 2000ms (621 modules)
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Experience.tsx
+Error: 
+  [31mx[0m Expected a semicolon
+   ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Experience.tsx[0m:2:1]
+ [2m2[0m | 
+ [2m3[0m | import { motion } from 'framer-motion'
+ [2m4[0m | import { experience } from '@/data/experience'
+ [2m5[0m |               key={item.id}
+   : [31;1m                       ^[0m
+ [2m6[0m |               initial={{ opacity: 0, y: 30 }}
+ [2m7[0m |               whileInView={{ opacity: 1, y: 0 }}
+ [2m7[0m |               viewport={{ once: true, amount: 0.25 }}
+   `----
+
+  [31mx[0m Expected ',', got '.'
+   ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Experience.tsx[0m:2:1]
+ [2m2[0m | 
+ [2m3[0m | import { motion } from 'framer-motion'
+ [2m4[0m | import { experience } from '@/data/experience'
+ [2m5[0m |               key={item.id}
+   : [31;1m                       ^[0m
+ [2m6[0m |               initial={{ opacity: 0, y: 30 }}
+ [2m7[0m |               whileInView={{ opacity: 1, y: 0 }}
+ [2m7[0m |               viewport={{ once: true, amount: 0.25 }}
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Experience.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Contact.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Contact.tsx[0m:64:1]
+ [2m64[0m |   }
+ [2m65[0m | 
+ [2m66[0m |   return (
+ [2m67[0m |     <section id="contact" className="section bg-[rgba(255,255,255,0.02)]">
+    : [31;1m     ^^^^^^^[0m
+ [2m68[0m |       <div className="mx-auto max-w-7xl">
+ [2m69[0m |         <SectionLabel label="// 08 - CONTACT" />
+ [2m69[0m |         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Contact.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/app/globals.css:1:1
+Syntax error: C:\ihavetomove\portfolio\src\app\globals.css Unexpected }
+
+[1m[31m>[39m[22m[90m 1 | [39m[33m}[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m
+ [90m 3 | [39mbutton,
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\sections\Hero.tsx[0m:21:1]
+ [2m21[0m |   const { displayed } = useTypewriter(typewriterWords, 70, 1500)
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-28 sm:px-8 lg:pt-36">
+    : [31;1m     ^^^^^^^[0m
+ [2m25[0m |       <ParticleField />
+ [2m26[0m |       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
+ [2m26[0m |       <div className="relative mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+ ✓ Compiled in 1667ms (624 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 4s (628 modules)
+ GET / 200 in 12821ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1085ms (1241 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /icon-192.png 404 in 1497ms
+ GET /_next/static/webpack/19ba9d8ee2d12d11.webpack.hot-update.json 404 in 945ms
+ GET / 200 in 887ms
+ GET /icon-192.png 404 in 60ms
+ ✓ Compiled in 3.2s (1252 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 583ms (1241 modules)
+ GET /icon-192.png 404 in 850ms
+ ✓ Compiled in 6.9s (1255 modules)
+ ✓ Compiled in 2.6s (1252 modules)
+ GET / 200 in 6271ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.4s (1241 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /icon-192.png 404 in 5161ms
+ GET /_next/static/webpack/2c17c069d98f5f50.webpack.hot-update.json 404 in 3803ms
+ GET / 200 in 3469ms
+ GET /icon-192.png 404 in 160ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+ ⨯ ./src/components/layout/Navbar.tsx
+Error: 
+  [31mx[0m Expression expected
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\layout\Navbar.tsx[0m:45:1]
+ [2m45[0m |     if (!menuOpen) return
+ [2m46[0m |     document.body.style.overflow = 'hidden'
+ [2m47[0m |     return () => {
+ [2m48[0m |           </span>
+    : [31;1m           ^[0m
+ [2m49[0m |           <span className="hidden text-xs uppercase tracking-[0.35em] text-gold-primary md:block">vrindavandev</span>
+ [2m50[0m |         </Link>
+ [2m50[0m | 
+    `----
+
+  [31mx[0m Expression expected
+    ,-[[36;1;4mC:\ihavetomove\portfolio\src\components\layout\Navbar.tsx[0m:45:1]
+ [2m45[0m |     if (!menuOpen) return
+ [2m46[0m |     document.body.style.overflow = 'hidden'
+ [2m47[0m |     return () => {
+ [2m48[0m |           </span>
+    : [31;1m            ^^^^[0m
+ [2m49[0m |           <span className="hidden text-xs uppercase tracking-[0.35em] text-gold-primary md:block">vrindavandev</span>
+ [2m50[0m |         </Link>
+ [2m50[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Navbar.tsx
+./src/app/page.tsx
+ ✓ Compiled in 3.1s (1238 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1961ms (1241 modules)
+ GET /icon-192.png 404 in 2740ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+ ✓ Compiled in 10.9s (1252 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+ ✓ Compiled in 2.6s (1252 modules)
+ ✓ Compiled in 790ms (1252 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\0.pack.gz'
+ GET / 200 in 5861ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.7s (1241 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /icon-192.png 404 in 4059ms
+ GET /_next/static/webpack/b30c245276a86b80.webpack.hot-update.json 404 in 1415ms
+ GET / 200 in 811ms
+ GET /icon-192.png 404 in 66ms
+ ✓ Compiled in 1908ms (1255 modules)
+ GET /icon-192.png 404 in 88ms
+ ✓ Compiled in 1310ms (1255 modules)
+ ✓ Compiled in 1046ms (1255 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+ GET / 200 in 2923ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 20.2s (1479 modules)
+ GET /icon-192.png 404 in 23679ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/c5337ed98b6c71b3.webpack.hot-update.json 404 in 10321ms
+ GET / 200 in 1536ms
+ GET /icon-192.png 404 in 72ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+ ✓ Compiled in 2.1s (1474 modules)
+ ✓ Compiled /_not-found in 407ms (1463 modules)
+ GET /icon-192.png 404 in 654ms
+ ✓ Compiled in 1303ms (1477 modules)
+ ✓ Compiled in 1734ms (1477 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/layout/Navbar from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/layout/Footer from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Hero from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/About from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Services from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/LocalGrowth from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Projects from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/TechStack from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Experience from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/WhyVrindavan from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Testimonials from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/empty|client-only$=|next/dist/compiled/client-only/error|next/dist/compiled/server-only$=|next/dist/compiled/server-only/empty|next/dist/compiled/client-only$=|next/dist/compiled/client-only/error|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation.react-server|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/compiled/react-server-dom-webpack/client.edge|react-server-dom-webpack/server.edge$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-edge|react-server-dom-webpack/server.node$=|next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-webpack-server-node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|conditionNames=[|0=|react-server|1=|...|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\app|request=|@/components/sections/Contact from pack: Error: incorrect header check
+<w> [webpack.cache.PackFileCacheStrategy] Restoring failed for ResolverCachePlugin|normal|default|alias=[|server-only$=|next/dist/compiled/server-only/index|client-only$=|next/dist/compiled/client-only/index|next/dist/compiled/client-only$=|next/dist/compiled/client-only/index|next/dist/compiled/server-only=|next/dist/compiled/server-only/index|C:\ihavetomove\portfolio\node_modules\next\head.js=|next/dist/client/components/noop-head|C:\ihavetomove\portfolio\node_modules\next\image.js=|next/dist/api/image|C:\ihavetomove\portfolio\node_modules\next\constants.js=|next/dist/api/constants|C:\ihavetomove\portfolio\node_modules\next\router.js=|next/dist/api/router|C:\ihavetomove\portfolio\node_modules\next\dynamic.js=|next/dist/api/app-dynamic|C:\ihavetomove\portfolio\node_modules\next\script.js=|next/dist/api/script|C:\ihavetomove\portfolio\node_modules\next\link.js=|next/dist/api/link|C:\ihavetomove\portfolio\node_modules\next\navigation.js=|next/dist/api/navigation|C:\ihavetomove\portfolio\node_modules\next\headers.js=|next/dist/api/headers|C:\ihavetomove\portfolio\node_modules\next\og.js=|next/dist/api/og|C:\ihavetomove\portfolio\node_modules\next\server.js=|next/dist/api/server|C:\ihavetomove\portfolio\node_modules\next\document.js=|next/dist/api/document|C:\ihavetomove\portfolio\node_modules\next\app.js=|next/dist/api/app|react$=|next/dist/server/future/route-modules/app-page/vendored/ssr/react|react-dom$=|next/dist/server/future/route-modules/app-page/vendored/ssr/react-dom|react/jsx-runtime$=|next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-runtime|react/jsx-dev-runtime$=|next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime|react-dom/client$=|next/dist/compiled/react-dom/client|react-dom/server$=|next/dist/compiled/react-dom/server|react-dom/static$=|next/dist/compiled/react-dom-experimental/static|react-dom/static.edge$=|next/dist/compiled/react-dom-experimental/static.edge|react-dom/static.browser$=|next/dist/compiled/react-dom-experimental/static.browser|react-dom/server.edge$=|next/dist/build/webpack/alias/react-dom-server-edge.js|react-dom/server.browser$=|next/dist/build/webpack/alias/react-dom-server-browser.js|react-server-dom-webpack/client$=|next/dist/compiled/react-server-dom-webpack/client|react-server-dom-webpack/client.edge$=|next/dist/server/future/route-modules/app-page/vendored/ssr/react-server-dom-webpack-client-edge|react-server-dom-webpack/server.edge$=|next/dist/compiled/react-server-dom-webpack/server.edge|react-server-dom-webpack/server.node$=|next/dist/compiled/react-server-dom-webpack/server.node|@vercel/turbopack-ecmascript-runtime/dev/client/hmr-client.ts=|next/dist/client/dev/noop-turbopack-hmr|]|mainFields=[|0=|module|1=|main|]|dependencyType=|esm|path=|C:\ihavetomove\portfolio\src\components\sections|request=|@/components/ui/TechBadge from pack: Error: incorrect header check
+ ✓ Compiled in 12.8s (1474 modules)
+ ✓ Compiled in 6.5s (1474 modules)
+ ✓ Compiled in 9.6s (1474 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\ihavetomove\portfolio\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 1846ms (1474 modules)
+ ✓ Compiled in 2.2s (1474 modules)
+ ✓ Compiled in 1762ms (1474 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1139ms (1463 modules)
+ GET /_next/static/css/app/layout.css?v=1779709091361 404 in 1452ms
+ GET /_next/static/css/app/layout.css?v=1779709093435 404 in 121ms
+ GET /_next/static/css/app/layout.css?v=1779709093435 404 in 53ms
+ ✓ Compiled in 11.7s (1507 modules)
+ ✓ Compiled in 1087ms (1471 modules)
+ ✓ Compiled in 1088ms (1471 modules)
+ ✓ Compiled in 1121ms (1471 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 15.3s (1460 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 662ms (1462 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload

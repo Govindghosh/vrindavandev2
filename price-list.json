@@ -1,0 +1,82 @@
+[
+  {
+    "price": "Starts at INR 8,000",
+    "service": "Website & Landing Pages",
+    "description": "Basic mobile-first website with up to 5 sections, WhatsApp/call buttons, basic SEO and a lead-capture form."
+  },
+  {
+    "price": "INR 3,000 - 8,000/mo",
+    "service": "Local SEO & Google Maps",
+    "description": "Monthly local SEO package covering Google Business Profile setup, citation building, review management and content posting."
+  },
+  {
+    "price": "INR 5,000 - 15,000/mo",
+    "service": "Meta Ads & Lead Generation",
+    "description": "Facebook/Instagram ad management with creative design, audience targeting, WhatsApp/lead-form integration and weekly performance reporting."
+  },
+  {
+    "price": "Starts at INR 15,000",
+    "service": "AI & Business Automation",
+    "description": "Automation of enquiries, follow-ups and reports via Google Sheets/CRM, email/WhatsApp alerts and a basic chatbot."
+  },
+  {
+    "price": "Setup from INR 10,000",
+    "service": "WhatsApp CRM",
+    "description": "Full WhatsApp customer-relationship system: auto-replies, multi-stage follow-ups, broadcast planning and lead status tracking."
+  },
+  {
+    "price": "INR 5,000 - 40,000",
+    "service": "Branding & Design",
+    "description": "Visual identity package that includes logo refinement, color/font system, social media templates and menu/brochure designs."
+  },
+  {
+    "price": "INR 6,000 - 12,000/mo",
+    "service": "Social Media & Reels",
+    "description": "Monthly content creation for posts and reels, captions, hashtags and festival-campaign creatives."
+  },
+  {
+    "price": "INR 5,000 - 10,000/mo",
+    "service": "YouTube & Livestream",
+    "description": "Video support covering thumbnail design, Shorts planning, basic video SEO and livestream setup."
+  },
+  {
+    "price": "Landing page from INR 8K",
+    "service": "Special Offer - Landing Page",
+    "description": "Single-page landing site focused on conversions, with WhatsApp CTA and basic SEO."
+  },
+  {
+    "price": "Under INR 10,000",
+    "service": "Budget Tier - Basic",
+    "description": "Entry-level package for small businesses needing a simple website and basic SEO."
+  },
+  {
+    "price": "INR 10,000 - INR 30,000",
+    "service": "Budget Tier - Standard",
+    "description": "Mid-range package covering a website, local SEO and basic ad management."
+  },
+  {
+    "price": "INR 30,000 - INR 1,00,000",
+    "service": "Budget Tier - Advanced",
+    "description": "Comprehensive growth system with website, SEO, paid ads and WhatsApp CRM."
+  },
+  {
+    "price": "INR 1,00,000+",
+    "service": "Budget Tier - Premium",
+    "description": "Full-scale digital transformation for high-growth businesses, custom-built to scale."
+  },
+  {
+    "price": "INR 3K-8K/mo",
+    "service": "Local Growth - Visibility Package",
+    "description": "Google Business Profile, review requests, local citations and weekly posts for shops/hotels."
+  },
+  {
+    "price": "INR 12K-25K/mo",
+    "service": "Local Growth - Lead Engine",
+    "description": "Meta ads, landing page or lead form, WhatsApp follow-up flow and lead tracking spreadsheet."
+  },
+  {
+    "price": "INR 25K+/mo",
+    "service": "Local Growth - Full Growth System",
+    "description": "All-in-one package: website, SEO, ads, social content, WhatsApp CRM and monthly reporting."
+  }
+]
