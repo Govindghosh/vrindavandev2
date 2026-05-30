@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown } from 'lucide-react'
+import { Plus } from 'lucide-react'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 
 const faqs = [
@@ -28,7 +28,12 @@ const faqs = [
       'Paid campaigns can start bringing enquiries faster once creatives, targeting, and landing pages are ready. SEO and Google Maps growth usually needs consistent work, but the goal is always practical: more calls, bookings, walk-ins, and WhatsApp chats.',
   },
   {
-    question: 'What is your payment process?',
+    question: 'Do you work in Agra and Delhi too?',
+    answer:
+      'Yes. We work with businesses in Vrindavan, Mathura, Agra, Delhi NCR, and remote locations. The strategy changes by market, but the focus stays the same: calls, bookings, WhatsApp leads, and measurable local visibility.',
+  },
+  {
+    question: 'How does payment work?',
     answer:
       'Most projects start with a confirmed scope and an advance payment. The remaining amount is collected by milestone or before launch, depending on the project size and timeline.',
   },
@@ -40,7 +45,13 @@ const faqs = [
 ]
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState(0)
+  const [openIndexes, setOpenIndexes] = useState<number[]>([0, 1])
+
+  const toggleFaq = (index: number) => {
+    setOpenIndexes((current) =>
+      current.includes(index) ? current.filter((item) => item !== index) : [...current, index]
+    )
+  }
 
   return (
     <section id="faq" className="section">
@@ -80,7 +91,7 @@ export default function FAQ() {
 
           <div className="space-y-5">
             {faqs.map((item, index) => {
-              const isOpen = openIndex === index
+              const isOpen = openIndexes.includes(index)
               return (
                 <motion.div
                   key={item.question}
@@ -98,14 +109,14 @@ export default function FAQ() {
 
                   <button
                     type="button"
-                    onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                    onClick={() => toggleFaq(index)}
                     className="flex min-h-[64px] w-full items-center justify-between gap-5 px-11 py-4 text-left"
                     aria-expanded={isOpen}
                   >
                     <span className="font-[var(--font-display)] text-base font-bold leading-6 text-white sm:text-lg">
                       {item.question}
                     </span>
-                    <ChevronDown className={`h-5 w-5 shrink-0 text-[#ff6b00] transition duration-300 ${isOpen ? 'rotate-180' : ''}`} />
+                    <Plus className={`h-7 w-7 shrink-0 text-[#ff6b00] transition duration-300 ${isOpen ? 'rotate-45' : ''}`} />
                   </button>
 
                   <AnimatePresence initial={false}>

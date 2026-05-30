@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
 
 export default function Footer() {
   return (
@@ -33,20 +31,6 @@ export default function Footer() {
             <Link href="/#founder" className="hover:text-gold-primary">Founder</Link>
             <Link href="/#faq" className="hover:text-gold-primary">FAQ</Link>
             <Link href="/#contact" className="hover:text-gold-primary">Contact</Link>
-          </div>
-          <div className="flex items-center gap-4 border-t border-white/5 pt-4 sm:border-t-0 sm:pt-0">
-            <a href="https://facebook.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-gold-primary transition duration-200" aria-label="Facebook">
-              <FaFacebookF className="h-5 w-5" />
-            </a>
-            <a href="https://instagram.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-gold-primary transition duration-200" aria-label="Instagram">
-              <FaInstagram className="h-5 w-5" />
-            </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-gold-primary transition duration-200" aria-label="LinkedIn">
-              <FaLinkedinIn className="h-5 w-5" />
-            </a>
-            <a href="https://x.com/" target="_blank" rel="noreferrer" className="text-text-secondary hover:text-gold-primary transition duration-200" aria-label="X">
-              <FaXTwitter className="h-5 w-5" />
-            </a>
           </div>
         </div>
       </div>

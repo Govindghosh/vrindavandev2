@@ -55,13 +55,13 @@ export default function Hero() {
               href="https://wa.me/917906630435"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-block-mobile inline-flex items-center justify-center gap-2 text-sm font-semibold sm:max-w-fit"
+              className="btn-block-mobile inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-black shadow-[0_16px_36px_rgba(37,211,102,0.24)] transition hover:bg-[#34e682] sm:max-w-fit"
             >
               <MessageCircle className="h-4 w-4" />
-              Message on WhatsApp
+              Chat on WhatsApp
             </Link>
             <Link href="#services" className="btn btn-ghost btn-block-mobile inline-flex items-center justify-center gap-2 text-sm font-semibold sm:max-w-fit">
-              Explore Services
+              See Our Services
               <BarChart3 className="h-4 w-4" />
             </Link>
           </div>

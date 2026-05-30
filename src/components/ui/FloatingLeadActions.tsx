@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Gift, Megaphone, Phone, X } from 'lucide-react'
+import { Gift, Phone, X } from 'lucide-react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
@@ -175,13 +175,6 @@ export default function FloatingLeadActions() {
         <FaWhatsapp className="relative z-10 h-9 w-9 drop-shadow-[0_4px_14px_rgba(0,0,0,0.28)]" aria-hidden="true" />
       </motion.a>
 
-      <Link
-        href="/#services"
-        className="fixed right-3 top-1/2 z-[9996] hidden -translate-y-1/2 items-center gap-2 rounded-l-2xl border border-r-0 border-[rgba(212,175,55,0.25)] bg-[rgba(10,11,18,0.88)] px-3 py-4 text-xs font-bold uppercase tracking-[0.18em] text-gold-primary shadow-2xl backdrop-blur-xl sm:inline-flex"
-      >
-        <Megaphone className="h-4 w-4" aria-hidden="true" />
-        Offers
-      </Link>
     </>
   )
 }

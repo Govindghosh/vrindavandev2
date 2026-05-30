@@ -14,7 +14,7 @@ export const emailJsSettings = {
 export const sections = [
   { id: 'hero', label: 'Home' },
   { id: 'testimonials', label: 'Testimonials' },
-  { id: 'associations', label: 'Associations' },
+  { id: 'associations', label: 'Who We Work With' },
   { id: 'services', label: 'Services' },
   { id: 'results', label: 'Results' },
   { id: 'software', label: 'Software' },

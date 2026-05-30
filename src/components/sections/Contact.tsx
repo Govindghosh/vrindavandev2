@@ -110,6 +110,19 @@ export default function Contact() {
             className="section-card rounded-3xl p-8"
           >
             <div className="grid gap-5">
+              <div className="rounded-2xl border border-[#25D366]/25 bg-[#25D366]/10 p-4">
+                <p className="text-sm font-bold text-white">Quick? Chat directly</p>
+                <Link
+                  href="https://wa.me/917906630435"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-black transition hover:bg-[#34e682]"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  Open WhatsApp Chat
+                </Link>
+              </div>
+
               <div className="grid gap-2">
                 <label htmlFor="name" className="text-sm font-medium text-white">Name *</label>
                 <input
@@ -156,14 +169,13 @@ export default function Contact() {
               </div>
 
               <div className="grid gap-2">
-                <label htmlFor="message" className="text-sm font-medium text-white">Message *</label>
+                <label htmlFor="message" className="text-sm font-medium text-white">Message</label>
                 <textarea
                   id="message"
-                  {...register('message', { required: 'Message is required' })}
-                  aria-required="true"
+                  {...register('message')}
+                  aria-required="false"
                   className="min-h-[160px] rounded-3xl border border-[rgba(212,175,55,0.18)] bg-[rgba(255,255,255,0.04)] px-4 py-3 text-sm text-white outline-none transition focus:border-gold-primary"
                 />
-                {errors.message && <span role="alert" className="text-sm text-saffron">{errors.message.message}</span>}
               </div>
 
               <button

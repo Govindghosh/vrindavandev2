@@ -16,7 +16,7 @@ type SectionPosition = {
 }
 
 const mobileSections = sections.filter((section) =>
-  ['services', 'results', 'faq', 'founder', 'contact'].includes(section.id)
+  ['hero', 'services', 'results', 'founder', 'contact'].includes(section.id)
 )
 
 export default function Navbar() {
