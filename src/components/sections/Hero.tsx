@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BarChart3, MessageCircle, TrendingUp, Zap } from 'lucide-react'
 
 const growthActions = [
@@ -30,7 +31,7 @@ export default function Hero() {
     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-12 sm:px-8 lg:pt-24">
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-top"
-        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.png)', opacity: 0.06 }}
+        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.webp)', opacity: 0.06 }}
       />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
 
@@ -41,7 +42,7 @@ export default function Hero() {
               Digital Growth Agency for Vrindavan, Mathura, Agra, and remote clients
             </span>
             <div className="space-y-2">
-              <h1 className="font-black leading-[0.92] tracking-[-0.045em] text-4xl sm:text-[5rem] md:text-[6rem]" style={{ fontFamily: 'var(--font-display)' }}>
+              <h1 className="text-[2.65rem] font-black leading-[1.04] tracking-[-0.025em] text-white sm:text-[5rem] sm:leading-[0.92] md:text-[6rem]" style={{ fontFamily: 'var(--font-display)' }}>
                 Get More Calls, Bookings & WhatsApp Leads For Your Local Business
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-text-secondary">
@@ -76,9 +77,14 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="glass relative overflow-hidden p-4 shadow-lift sm:p-6"
         >
-          <img
-            src="/images/hero_dashboard.png"
+          <Image
+            src="/images/hero_dashboard.webp"
             alt="Analytics Dashboard showing digital growth"
+            width={800}
+            height={800}
+            priority
+            fetchPriority="high"
+            sizes="(max-width: 768px) 100vw, 800px"
             className="w-full rounded-xl border border-[rgba(212,175,55,0.1)] object-cover shadow-sm"
           />
         </motion.div>

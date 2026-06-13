@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { GlowCard } from '@/components/ui/GlowCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 
@@ -11,9 +12,9 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { value: '50+', label: 'Clients Served', bgImage: '/images/stats_clients.png' },
-  { value: '3+', label: 'Years in Business', bgImage: '/images/stats_years.png' },
-  { value: '100%', label: 'Client Retention', bgImage: '/images/stats_retention.png' }
+  { value: '50+', label: 'Clients Served', bgImage: '/images/stats_clients.webp' },
+  { value: '3+', label: 'Years in Business', bgImage: '/images/stats_years.webp' },
+  { value: '100%', label: 'Client Retention', bgImage: '/images/stats_retention.webp' }
 ]
 
 const capabilities = [
@@ -42,12 +43,15 @@ function StatCard({ stat, index }: { stat: StatItem; index: number }) {
       <div className="relative w-full">
         {/* Image Container with overflow-hidden */}
         <div className="group relative w-full h-[360px] md:h-[420px] overflow-hidden rounded-[32px] border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.4)] cursor-pointer">
-          <div
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
-            style={{ backgroundImage: `url(${stat.bgImage})` }}
-            role="img"
-            aria-label={stat.label}
-          />
+          <div className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-105">
+            <Image
+              src={stat.bgImage}
+              alt={stat.label}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover object-center"
+            />
+          </div>
           <div className="absolute inset-0 bg-gradient-to-t from-[rgba(10,11,18,0.95)] via-[rgba(10,11,18,0.35)] to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-95" />
         </div>
 
@@ -102,16 +106,21 @@ export default function About() {
                 We build high-impact digital experiences for local businesses in Vrindavan, Mathura, Agra, and beyond — websites, SEO, ads, WhatsApp automation, and brand design.
               </p>
             </div>
-            <motion.img
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              src="/images/vrindavan_digital_bg.png"
-              alt="Vrindavan digital agency"
-              className="mt-4 w-full rounded-3xl object-cover border border-[rgba(212,175,55,0.12)] shadow-lg"
-              style={{ maxHeight: '260px' }}
-            />
+              className="relative mt-4 h-[260px] w-full overflow-hidden rounded-3xl border border-[rgba(212,175,55,0.12)] shadow-lg"
+            >
+              <Image
+                src="/images/vrindavan_digital_bg.webp"
+                alt="Vrindavan digital agency"
+                fill
+                sizes="(max-width: 768px) 100vw, 600px"
+                className="object-cover"
+              />
+            </motion.div>
           </div>
 
           <GlowCard className="overflow-hidden">
@@ -136,4 +145,3 @@ export default function About() {
     </section>
   )
 }
-

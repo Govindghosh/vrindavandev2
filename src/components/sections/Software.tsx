@@ -30,7 +30,7 @@ export default function Software() {
     <section id="software" className="section text-white">
       <div
         className="pointer-events-none absolute inset-0 -z-20 bg-cover bg-top"
-        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.png)', opacity: 0.06 }}
+        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.webp)', opacity: 0.06 }}
       />
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
 

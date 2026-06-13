@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { GlowCard } from '@/components/ui/GlowCard'
 
@@ -38,16 +39,21 @@ export default function WhyVrindavan() {
             >
               "Most agencies sell traffic. VrindavanDev builds the system that turns local intent into calls, bookings, and trust."
             </motion.blockquote>
-            <motion.img
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              src="/images/vrindavan_digital_bg2.png"
-              alt="Vrindavan local businesses"
-              className="mt-8 w-full rounded-3xl object-cover border border-[rgba(212,175,55,0.1)] shadow-lg"
-              style={{ maxHeight: '240px', objectPosition: 'center' }}
-            />
+              className="relative mt-8 h-[240px] w-full overflow-hidden rounded-3xl border border-[rgba(212,175,55,0.1)] shadow-lg"
+            >
+              <Image
+                src="/images/vrindavan_digital_bg2.webp"
+                alt="Vrindavan local businesses"
+                fill
+                sizes="(max-width: 768px) 100vw, 600px"
+                className="object-cover object-center"
+              />
+            </motion.div>
           </div>
           <div className="space-y-6 text-body text-text-secondary lg:w-6/12">
             <motion.p

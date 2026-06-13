@@ -66,7 +66,7 @@ export default function Contact() {
           title="Let's Talk"
           className="mb-10"
         />
-        <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:gap-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <div className="section-card rounded-3xl p-8">
+            <div className="section-card rounded-3xl p-5 sm:p-8">
               <p className="text-sm uppercase tracking-[0.3em] text-cyan">Get in Touch</p>
               <h3 className="mt-4 text-3xl font-bold text-white">Talk to VrindavanDev</h3>
               <Link
@@ -107,7 +107,7 @@ export default function Contact() {
 
           <motion.form
             onSubmit={handleSubmit(onSubmit)}
-            className="section-card rounded-3xl p-8"
+            className="section-card rounded-3xl p-5 sm:p-8"
           >
             <div className="grid gap-5">
               <div className="rounded-2xl border border-[#25D366]/25 bg-[#25D366]/10 p-4">

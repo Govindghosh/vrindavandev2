@@ -3,11 +3,10 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Gift, Phone, X } from 'lucide-react'
+import { Gift, X } from 'lucide-react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
-const phoneNumber = '+917906630435'
 const whatsappUrl = 'https://wa.me/917906630435?text=Hi%20VrindavanDev%2C%20I%20want%20more%20leads%20for%20my%20business.'
 
 const offers = [
@@ -54,15 +53,12 @@ const socialLinks = [
 
 export default function FloatingLeadActions() {
   const [showOffer, setShowOffer] = useState(false)
-  const [showCall, setShowCall] = useState(false)
 
   useEffect(() => {
     const offerTimer = window.setTimeout(() => setShowOffer(true), 900)
-    const callTimer = window.setTimeout(() => setShowCall(true), 2600)
 
     return () => {
       window.clearTimeout(offerTimer)
-      window.clearTimeout(callTimer)
     }
   }, [])
 
@@ -128,18 +124,6 @@ export default function FloatingLeadActions() {
               </div>
             </div>
           </div>
-        </div>
-      )}
-
-      {showCall && (
-        <div className="call-now-pop fixed z-[9996] hidden sm:block sm:bottom-6 sm:left-auto sm:right-24">
-          <Link
-            href={`tel:${phoneNumber}`}
-            className="inline-flex items-center gap-2 rounded-full border border-[rgba(212,175,55,0.3)] bg-[rgba(10,11,18,0.9)] px-4 py-3 text-sm font-bold text-white shadow-2xl backdrop-blur-xl transition hover:border-gold-primary hover:bg-[rgba(212,175,55,0.16)]"
-          >
-            <Phone className="h-4 w-4 text-gold-primary" aria-hidden="true" />
-            Call now
-          </Link>
         </div>
       )}
 

@@ -51,7 +51,7 @@ function ServiceCard({ service, index }: ServiceCardProps) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.05 }}
     >
-      <GlowCard className={`h-full overflow-hidden ${isOffer ? 'border-[rgba(255,107,0,0.48)] shadow-[0_22px_60px_rgba(255,107,0,0.12)]' : 'border-[rgba(212,175,55,0.15)]'}`}>
+      <GlowCard className={`h-full overflow-hidden p-5 sm:p-8 ${isOffer ? 'border-[rgba(255,107,0,0.48)] shadow-[0_22px_60px_rgba(255,107,0,0.12)]' : 'border-[rgba(212,175,55,0.15)]'}`}>
         <div className="flex h-full flex-col justify-between gap-5">
           <div>
             <div className="flex items-start justify-between gap-3">
@@ -75,7 +75,7 @@ function ServiceCard({ service, index }: ServiceCardProps) {
               </div>
               <span className="rounded-full border border-[rgba(212,175,55,0.12)] bg-white/[0.02] px-2.5 py-1 text-[0.6rem] uppercase tracking-[0.18em] text-gold-primary">{service.tag}</span>
             </div>
-            <Link href={`/services/${service.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-xl border border-[rgba(212,175,55,0.22)] py-2.5 text-[0.7rem] font-bold uppercase tracking-[0.15em] hover:bg-[rgba(212,175,55,0.05)] hover:text-gold-primary transition duration-200">
+            <Link href={`/services/${service.id}`} className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-xl border border-[rgba(212,175,55,0.22)] px-3 py-2.5 text-center text-[0.7rem] font-bold uppercase tracking-[0.12em] transition duration-200 hover:bg-[rgba(212,175,55,0.05)] hover:text-gold-primary">
               View Details &rarr;
             </Link>
           </div>

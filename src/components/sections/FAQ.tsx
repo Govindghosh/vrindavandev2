@@ -68,19 +68,19 @@ export default function FAQ() {
           />
         </motion.div>
 
-        <div className="mt-12 grid gap-10 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
+        <div className="mt-12 grid gap-8 lg:grid-cols-[0.32fr_0.68fr] lg:items-center">
           <motion.div
             initial={{ opacity: 0, x: -28 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.6 }}
-            className="relative mx-auto hidden min-h-[520px] w-full max-w-[440px] items-center justify-center lg:flex"
+            className="relative mx-auto hidden min-h-[420px] w-full max-w-[340px] items-center justify-center lg:flex"
           >
             <div className="absolute left-8 top-14 h-48 w-48 rounded-full bg-[#ff6b00]/14 blur-3xl" />
             <div className="absolute bottom-14 right-8 h-52 w-52 rounded-full bg-[#d4af37]/14 blur-3xl" />
-            <div className="relative h-[500px] w-full">
+            <div className="relative h-[380px] w-full">
               <Image
-                src="/images/faq-img-transparent.png"
+                src="/images/faq-img-transparent.webp"
                 alt="Frequently asked questions visual"
                 fill
                 sizes="440px"

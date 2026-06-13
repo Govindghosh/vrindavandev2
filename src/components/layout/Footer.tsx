@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+
 export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)] bg-[rgba(10,11,18,0.85)] px-5 py-10 text-sm text-text-secondary sm:px-8">
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="space-y-3">
           <div className="flex items-center gap-3">
             <Image
-              src="/logo-transparent.png"
+              src="/logo-transparent.webp"
               alt="VrindavanDev Logo"
               width={44}
               height={44}

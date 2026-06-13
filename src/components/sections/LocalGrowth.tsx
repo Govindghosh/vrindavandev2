@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { Building2, Hotel, MapPinned, Megaphone, MessageSquare, Search, Store, Video } from 'lucide-react'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { GlowCard } from '@/components/ui/GlowCard'
@@ -58,15 +59,21 @@ export default function LocalGrowth() {
               }
               description="Hotels, temples, shops and tour operators need calls and bookings — not random traffic. This is the system that delivers it."
             />
-            <motion.img 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              src="/images/services_seo.png" 
-              alt="Local SEO Growth" 
-              className="section-card mt-6 w-full rounded-3xl object-cover" 
-            />
+              className="section-card relative mt-6 aspect-square max-h-[360px] w-full overflow-hidden rounded-3xl"
+            >
+              <Image 
+                src="/images/services_seo.webp" 
+                alt="Local SEO Growth" 
+                fill
+                sizes="(max-width: 768px) 100vw, 600px"
+                className="object-cover" 
+              />
+            </motion.div>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
             {engineSteps.map((step, index) => {

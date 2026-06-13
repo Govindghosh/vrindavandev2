@@ -1,11 +1,12 @@
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import Image from 'next/image'
 
 export default function Founder() {
   return (
     <section id="founder" className="section text-white">
       <div
         className="pointer-events-none absolute inset-0 -z-20 bg-cover bg-top"
-        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.png)', opacity: 0.06 }}
+        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.webp)', opacity: 0.06 }}
       />
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
 
@@ -17,7 +18,13 @@ export default function Founder() {
         />
         <div className="mt-10 flex flex-col items-center gap-8 md:flex-row md:items-center">
           <div className="h-48 w-48 overflow-hidden rounded-full border border-[rgba(212,175,55,0.22)] bg-[rgba(255,255,255,0.04)] shadow-lift">
-            <img src="/images/client/founder.jpg" alt="Kanchan, founder of VrindavanDev" className="h-full w-full object-cover object-center" />
+            <Image
+              src="/images/client/founder.webp"
+              alt="Kanchan, founder of VrindavanDev"
+              width={192}
+              height={192}
+              className="h-full w-full object-cover object-center"
+            />
           </div>
           <div className="text-center md:text-left">
             <h3 className="mb-2 text-2xl font-bold text-white">Kanchan</h3>

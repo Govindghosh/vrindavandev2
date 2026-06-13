@@ -1,19 +1,24 @@
+import dynamic from 'next/dynamic'
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
 import Hero from '@/components/sections/Hero'
 import Industries from '@/components/sections/Associations'
 import Services from '@/components/sections/Services'
-import Results from '@/components/sections/Results'
-import Software from '@/components/sections/Software'
-import Founder from '@/components/sections/Founder'
 import Testimonials from '@/components/sections/Testimonials'
-import FAQ from '@/components/sections/FAQ'
-import Contact from '@/components/sections/Contact'
 import { GrainOverlay } from '@/components/ui/GrainOverlay'
-import FloatingLeadActions from '@/components/ui/FloatingLeadActions'
-import EntryLeadPopup from '@/components/ui/EntryLeadPopup'
 import TopBanner from '@/components/ui/TopBanner'
-import CookieConsent from '@/components/ui/CookieConsent'
+
+// Dynamically import below-the-fold components (SSR enabled for SEO)
+const Results = dynamic(() => import('@/components/sections/Results'))
+const Software = dynamic(() => import('@/components/sections/Software'))
+const Founder = dynamic(() => import('@/components/sections/Founder'))
+const FAQ = dynamic(() => import('@/components/sections/FAQ'))
+const Contact = dynamic(() => import('@/components/sections/Contact'))
+const Footer = dynamic(() => import('@/components/layout/Footer'))
+
+// Dynamically import client-only overlay widgets
+const EntryLeadPopup = dynamic(() => import('@/components/ui/EntryLeadPopup'), { ssr: false })
+const CookieConsent = dynamic(() => import('@/components/ui/CookieConsent'), { ssr: false })
+const FloatingLeadActions = dynamic(() => import('@/components/ui/FloatingLeadActions'), { ssr: false })
 
 export default function HomePage() {
   return (

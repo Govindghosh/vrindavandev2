@@ -80,7 +80,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-[74px] w-full max-w-[1480px] items-center justify-between px-5 lg:px-8 2xl:px-0">
         <Link href="/#hero" className="group inline-flex min-w-[180px] items-center gap-3 focus-visible:outline-none">
           <Image
-            src="/logo-transparent.png"
+            src="/logo-transparent.webp"
             alt="VrindavanDev Logo"
             width={56}
             height={56}
