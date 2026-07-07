@@ -90,7 +90,7 @@ function ServicesOfferCTA() {
     <div className="section-card mt-12 rounded-3xl p-6 text-center">
       <p className="text-lg font-semibold text-white">Want more calls, bookings, and WhatsApp enquiries?</p>
       <div className="mt-5 grid gap-3 sm:flex sm:justify-center">
-        <Link href="https://wa.me/917906630435?text=Hi%20VrindavanDev%2C%20I%20want%20the%203-service%20growth%20offer." target="_blank" rel="noreferrer" className="btn btn-primary inline-flex items-center justify-center gap-2 text-sm font-semibold">
+        <Link href="https://wa.me/917906630435?text=Hi%20Digitalcraft Studio%2C%20I%20want%20the%203-service%20growth%20offer." target="_blank" rel="noreferrer" className="btn btn-primary inline-flex items-center justify-center gap-2 text-sm font-semibold">
           Claim 3-service offer
         </Link>
         <Link href="/#contact" className="btn btn-ghost inline-flex items-center justify-center gap-2 text-sm font-semibold">

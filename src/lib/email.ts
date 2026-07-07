@@ -24,7 +24,7 @@ export async function sendEmail({ subject, text, html }: SendEmailParams) {
   })
 
   const mailOptions = {
-    from: `"VrindavanDev Lead Portal" <${user}>`,
+    from: `"Digitalcraft Studio Lead Portal" <${user}>`,
     to: user, // Send lead notification emails to the owner's email
     subject,
     text,

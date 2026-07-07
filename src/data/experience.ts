@@ -49,7 +49,7 @@ export const experience: ExperienceEntry[] = [
     location: 'Vrindavan',
     type: 'Founded',
     highlights: [
-      'Started VrindavanDev with a focus on local SEO audit services.',
+      'Started Digitalcraft Studio with a focus on local SEO audit services.',
       'Identified unique digital pain points of Vrindavan hotel owners and prasad store operators.',
       'Built first local business ranking framework yielding 40%+ average traffic increase.',
     ],

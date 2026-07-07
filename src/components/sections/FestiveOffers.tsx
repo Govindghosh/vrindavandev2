@@ -145,7 +145,7 @@ function PackageComboCard({ combo, activeCoupon }: { combo: PackageCombo; active
           onClick={() => {
             const field = document.getElementById('contact-message') as HTMLTextAreaElement | null
             if (field) {
-              field.value = `Hi VrindavanDev, I want to book the ${combo.name} package using coupon code ${activeCoupon}.`
+              field.value = `Hi Digitalcraft Studio, I want to book the ${combo.name} package using coupon code ${activeCoupon}.`
               field.focus()
             }
           }}

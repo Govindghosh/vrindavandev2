@@ -12,7 +12,7 @@ export const projects: Project[] = [
     impact: 'Live at tikhat.in - serving real event organizers',
     stack: ['React', 'FastAPI', 'PostgreSQL', 'AWS S3', 'Razorpay'],
     liveUrl: 'https://tikhat.in',
-    githubUrl: 'https://github.com/vrindavandev/tikhat',
+    githubUrl: 'https://github.com/digitalcraftstudio/tikhat',
     ariaLabel: 'TIKHAT event ticketing platform project',
   },
   {
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     impact: 'Real-time trading with sub-second order updates',
     stack: ['MERN', 'Socket.io', 'Redis', 'BullMQ', 'TypeScript'],
     liveUrl: 'https://cryptiansstore.in',
-    githubUrl: 'https://github.com/vrindavandev/cryptians-store',
+    githubUrl: 'https://github.com/digitalcraftstudio/cryptians-store',
     ariaLabel: 'CRYPTIANS STORE crypto exchange project',
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     impact: 'Used by internal teams at Add-God Makers Pvt. Ltd.',
     stack: ['MERN', 'TypeScript', 'Docker', 'JWT', 'REST API'],
     liveUrl: 'https://addgodcrm.in',
-    githubUrl: 'https://github.com/vrindavandev/add-god-crm',
+    githubUrl: 'https://github.com/digitalcraftstudio/add-god-crm',
     ariaLabel: 'ADD-GOD CRM and HRM platform project',
   },
   {
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     impact: 'Deployed for enterprise security - 99.2% accuracy',
     stack: ['React', 'FastAPI', 'Face Recognition', 'Aadhaar API', 'PostgreSQL'],
     liveUrl: 'https://visitortrack.in',
-    githubUrl: 'https://github.com/vrindavandev/visitor-management',
+    githubUrl: 'https://github.com/digitalcraftstudio/visitor-management',
     ariaLabel: 'Visitor Management System project',
   },
   {
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     impact: 'Processing thousands of transactions daily',
     stack: ['Next.js', 'Node.js', 'TypeScript', 'PostgreSQL', 'BullMQ'],
     liveUrl: 'https://recondashboard.in',
-    githubUrl: 'https://github.com/vrindavandev/recon-dashboard',
+    githubUrl: 'https://github.com/digitalcraftstudio/recon-dashboard',
     ariaLabel: 'RECON DASHBOARD financial reconciliation tool project',
   },
 ]

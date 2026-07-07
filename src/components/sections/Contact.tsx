@@ -76,7 +76,7 @@ export default function Contact() {
           >
             <div className="section-card rounded-3xl p-5 sm:p-8">
               <p className="text-sm uppercase tracking-[0.3em] text-cyan">Get in Touch</p>
-              <h3 className="mt-4 text-3xl font-bold text-white">Talk to VrindavanDev</h3>
+              <h3 className="mt-4 text-3xl font-bold text-white">Talk to Digitalcraft Studio</h3>
               <Link
                 href="https://wa.me/917906630435"
                 target="_blank"
@@ -93,7 +93,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="mt-1 text-gold-primary min-w-[70px]">Email</span>
-                  <span>hello@vrindavandev.in</span>
+                  <span>hello@digitalcraftstudio.in</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="mt-1 text-gold-primary min-w-[70px]">Phone</span>

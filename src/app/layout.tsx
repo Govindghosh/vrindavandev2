@@ -11,10 +11,10 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['400', '500'
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vrindavandev.in'),
+  metadataBase: new URL('https://digitalcraftstudio.in'),
   title: {
-    default: 'VrindavanDev | Digital Growth Agency, SEO & Web Development Vrindavan',
-    template: '%s | VrindavanDev',
+    default: 'Digitalcraft Studio | Digital Growth Agency, SEO & Web Development Vrindavan',
+    template: '%s | Digitalcraft Studio',
   },
   description:
     'Top-rated Digital Growth Agency in Vrindavan, UP. Expert in Google Maps Ranking, local SEO, Web Development, Meta Ads, and WhatsApp Automation for local businesses.',
@@ -27,20 +27,20 @@ export const metadata: Metadata = {
     'whatsapp automation agency',
     'local marketing vrindavan agra',
     'web development agency mathura',
-    'VrindavanDev',
+    'Digitalcraft Studio',
   ],
-  authors: [{ name: 'VrindavanDev', url: 'https://vrindavandev.in' }],
-  creator: 'VrindavanDev',
-  publisher: 'VrindavanDev',
+  authors: [{ name: 'Digitalcraft Studio', url: 'https://digitalcraftstudio.in' }],
+  creator: 'Digitalcraft Studio',
+  publisher: 'Digitalcraft Studio',
   alternates: {
-    canonical: 'https://vrindavandev.in',
+    canonical: 'https://digitalcraftstudio.in',
   },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://vrindavandev.in',
-    siteName: 'VrindavanDev',
-    title: 'VrindavanDev - Digital Growth Agency from Vrindavan, India',
+    url: 'https://digitalcraftstudio.in',
+    siteName: 'Digitalcraft Studio',
+    title: 'Digitalcraft Studio - Digital Growth Agency from Vrindavan, India',
     description:
       'Building websites, ranking local businesses on Google Maps, running Meta Ads, and setting up WhatsApp CRM/automations from Vrindavan.',
     images: [
@@ -48,16 +48,16 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'VrindavanDev Digital Agency Portfolio',
+        alt: 'Digitalcraft Studio Digital Agency Portfolio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VrindavanDev - Digital Growth Agency',
+    title: 'Digitalcraft Studio - Digital Growth Agency',
     description: 'Web development, Local SEO, Meta Ads & WhatsApp CRM from Vrindavan, India.',
     images: ['/og-image.png'],
-    creator: '@vrindavandev',
+    creator: '@digitalcraftstudio',
   },
   robots: {
     index: true,
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'VrindavanDev',
+    title: 'Digitalcraft Studio',
   },
 }
 
@@ -89,11 +89,11 @@ export const viewport: Viewport = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'VrindavanDev',
-  alternateName: 'VrindavanDev Digital Agency',
-  url: 'https://vrindavandev.in',
-  logo: 'https://vrindavandev.in/logo.png',
-  image: 'https://vrindavandev.in/og-image.png',
+  name: 'Digitalcraft Studio',
+  alternateName: 'Digitalcraft Studio Digital Agency',
+  url: 'https://digitalcraftstudio.in',
+  logo: 'https://digitalcraftstudio.in/logo.png',
+  image: 'https://digitalcraftstudio.in/og-image.png',
   description:
     'Full Stack Development and Digital Marketing services in Vrindavan, UP. Web development, SEO, Meta Ads, WhatsApp CRM.',
   address: {
@@ -110,7 +110,7 @@ const localBusinessSchema = {
     longitude: '77.6960',
   },
   telephone: '+91-7906630435',
-  email: 'hello@vrindavandev.in',
+  email: 'hello@digitalcraftstudio.in',
   priceRange: 'INR INR',
   openingHours: 'Mo-Sa 09:00-20:00',
   areaServed: ['Vrindavan', 'Mathura', 'Agra', 'Delhi NCR', 'India'],
@@ -128,11 +128,11 @@ const localBusinessSchema = {
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'VrindavanDev',
-  url: 'https://vrindavandev.in',
+  name: 'Digitalcraft Studio',
+  url: 'https://digitalcraftstudio.in',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://vrindavandev.in/?s={search_term_string}',
+    target: 'https://digitalcraftstudio.in/?s={search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 }

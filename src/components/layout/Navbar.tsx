@@ -77,29 +77,26 @@ export default function Navbar() {
         isScrolled ? 'shadow-[0_14px_40px_rgba(0,0,0,0.38)]' : 'shadow-none'
       )}
     >
-      <div className="mx-auto flex h-[74px] w-full max-w-[1480px] items-center justify-between px-5 lg:px-8 2xl:px-0">
-        <Link href="/#hero" className="group inline-flex min-w-[180px] items-center gap-3 focus-visible:outline-none">
+      <div className="mx-auto flex h-[64px] w-full max-w-[1480px] items-center justify-between px-5 lg:px-8 2xl:px-0">
+        <Link href="/#hero" className="group inline-flex shrink-0 items-center focus-visible:outline-none">
           <Image
-            src="/logo-transparent.webp"
-            alt="VrindavanDev Logo"
-            width={56}
-            height={56}
-            className="h-12 w-12 object-contain transition-transform duration-300 group-hover:-translate-y-0.5 drop-shadow-[0_0_12px_rgba(0,167,181,0.5)]"
+            src="/logoNameMain.webp"
+            alt="Digitalcraft Studio Logo"
+            width={200}
+            height={40}
+            className="h-9 w-auto object-contain transition-transform duration-300 group-hover:-translate-y-0.5"
             priority
           />
-          <span className="hidden max-w-[112px] text-[11px] font-bold uppercase leading-[1.05] tracking-[0.14em] text-white lg:block">
-            vrindavandev
-          </span>
         </Link>
 
         {/* Desktop navigation */}
-        <nav className="hidden flex-1 items-center justify-center gap-8 xl:flex">
+        <nav className="hidden flex-1 items-center justify-center gap-5 xl:flex">
           {sections.map((section) => (
             <Link
               key={section.id}
               href={`/#${section.id}`}
               className={cn(
-                'relative whitespace-nowrap text-[18px] font-medium tracking-[-0.01em] text-white transition-colors duration-200 after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-[#ff5b24] after:transition-transform after:duration-200 hover:text-[#ff5b24] hover:after:scale-x-100',
+                'relative whitespace-nowrap text-[15px] font-medium tracking-[-0.01em] text-white/90 transition-colors duration-200 after:absolute after:-bottom-1.5 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-[#ff5b24] after:transition-transform after:duration-200 hover:text-[#ff5b24] hover:after:scale-x-100',
                 activeSection === section.id ? 'text-[#ff5b24] after:scale-x-100' : ''
               )}
             >
@@ -109,12 +106,12 @@ export default function Navbar() {
         </nav>
 
         {/* Quote button (desktop) */}
-        <div className="hidden min-w-[180px] items-center justify-end xl:flex">
+        <div className="hidden shrink-0 items-center justify-end xl:flex">
           <Link
             href="/#contact"
-            className="inline-flex min-h-[64px] items-center justify-center border border-white/20 px-7 text-[17px] font-bold text-white transition duration-200 hover:border-[#ff5b24] hover:bg-[#ff5b24] hover:text-white"
+            className="inline-flex h-[44px] items-center justify-center rounded-sm border border-white/20 px-6 text-[14px] font-bold tracking-wide text-white transition duration-200 hover:border-[#ff5b24] hover:bg-[#ff5b24] hover:text-white"
           >
-            {'Get a Quote ->'}
+            Get a Quote
           </Link>
         </div>
 

@@ -37,7 +37,7 @@ export default function WhyVrindavan() {
               transition={{ duration: 0.7 }}
               className="text-h2 font-[var(--font-serif)] italic text-white/95 leading-snug"
             >
-              "Most agencies sell traffic. VrindavanDev builds the system that turns local intent into calls, bookings, and trust."
+              "Most agencies sell traffic. Digitalcraft Studio builds the system that turns local intent into calls, bookings, and trust."
             </motion.blockquote>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export default function WhyVrindavan() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.05 }}
             >
-              Local trust is earned through visibility, speed, and credibility. Hotels, ashrams, shops, and tour operators in Vrindavan need Google Maps presence, WhatsApp replies, and strong reviews — not random likes. That is exactly what VrindavanDev builds.
+              Local trust is earned through visibility, speed, and credibility. Hotels, ashrams, shops, and tour operators in Vrindavan need Google Maps presence, WhatsApp replies, and strong reviews — not random likes. That is exactly what Digitalcraft Studio builds.
             </motion.p>
             <motion.div
               className="grid gap-4 sm:grid-cols-3"

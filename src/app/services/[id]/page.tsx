@@ -85,7 +85,7 @@ function ServiceFeatures({ service }: { service: typeof services[number] }) {
 
 function ServiceBookingCTA({ service }: { service: typeof services[number] }) {
   const router = useRouter()
-  const waText = encodeURIComponent(`Hi VrindavanDev, I'm interested in the ${service.title} service. Please provide more details.`)
+  const waText = encodeURIComponent(`Hi Digitalcraft Studio, I'm interested in the ${service.title} service. Please provide more details.`)
   const whatsappUrl = `https://wa.me/917906630435?text=${waText}`
 
   return (

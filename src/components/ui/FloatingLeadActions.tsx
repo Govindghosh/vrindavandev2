@@ -7,7 +7,19 @@ import { Gift, X } from 'lucide-react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
-const whatsappUrl = 'https://wa.me/917906630435?text=Hi%20VrindavanDev%2C%20I%20want%20more%20leads%20for%20my%20business.'
+function useIsDesktop() {
+  const [isDesktop, setIsDesktop] = useState(false)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 768px)')
+    setIsDesktop(mq.matches)
+    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
+  return isDesktop
+}
+
+const whatsappUrl = 'https://wa.me/917906630435?text=Hi%20Digitalcraft Studio%2C%20I%20want%20more%20leads%20for%20my%20business.'
 
 const offers = [
   {
@@ -53,6 +65,7 @@ const socialLinks = [
 
 export default function FloatingLeadActions() {
   const [showOffer, setShowOffer] = useState(false)
+  const isDesktop = useIsDesktop()
 
   useEffect(() => {
     const offerTimer = window.setTimeout(() => setShowOffer(true), 900)
@@ -65,7 +78,7 @@ export default function FloatingLeadActions() {
   return (
     <>
       <motion.div
-        drag
+        drag={isDesktop}
         dragMomentum={false}
         dragElastic={0.08}
         whileDrag={{ scale: 1.04 }}
@@ -138,8 +151,8 @@ export default function FloatingLeadActions() {
         href={whatsappUrl}
         target="_blank"
         rel="noreferrer"
-        aria-label="Chat with VrindavanDev on WhatsApp"
-        drag
+        aria-label="Chat with Digitalcraft Studio on WhatsApp"
+        drag={isDesktop}
         dragMomentum={false}
         dragElastic={0.12}
         whileDrag={{ scale: 1.08 }}

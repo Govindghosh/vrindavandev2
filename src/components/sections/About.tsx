@@ -91,7 +91,7 @@ function CapabilitiesList() {
 
 export default function About() {
   return (
-    <section id="about" className="section" aria-label="About VrindavanDev">
+    <section id="about" className="section" aria-label="About Digitalcraft Studio">
       <div className="mx-auto max-w-7xl space-y-12">
         <div className="grid gap-8 lg:grid-cols-[0.55fr_0.45fr] lg:items-start">
           <div className="space-y-6">

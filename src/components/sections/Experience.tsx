@@ -12,7 +12,7 @@ export default function Experience() {
         <div className="space-y-4">
           <h2 className="text-h2 font-black text-white">Our journey & milestones</h2>
           <p className="max-w-3xl text-body text-text-secondary">
-            Key achievements, software builds, and client successes that define the growth of VrindavanDev.
+            Key achievements, software builds, and client successes that define the growth of Digitalcraft Studio.
           </p>
         </div>
 

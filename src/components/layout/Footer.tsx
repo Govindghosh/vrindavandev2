@@ -1,44 +1,51 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--border)] bg-[rgba(10,11,18,0.85)] px-5 py-10 text-sm text-text-secondary sm:px-8">
-      <div className="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
-        <div className="space-y-3">
-          <div className="flex items-center gap-3">
+    <footer className="border-t border-white/[0.06] bg-black px-5 py-12 text-sm text-neutral-400 sm:px-8">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
+        <div className="space-y-4">
+          <Link href="/#hero">
             <Image
-              src="/logo-transparent.webp"
-              alt="VrindavanDev Logo"
-              width={44}
-              height={44}
-              className="h-11 w-11 object-contain drop-shadow-[0_0_10px_rgba(0,167,181,0.4)]"
+              src="/logoNameMain.webp"
+              alt="Digitalcraft Studio Logo"
+              width={180}
+              height={36}
+              className="h-8 w-auto object-contain transition-opacity hover:opacity-80"
             />
-            <span className="font-semibold text-white">VrindavanDev</span>
-          </div>
-          <p className="text-text-secondary">
+          </Link>
+          <p className="max-w-xs leading-relaxed text-neutral-500">
             Building digital empires from the holy city.
           </p>
-          <p className="text-text-secondary">
-            Phone: <Link href="tel:+917906630435" className="hover:text-gold-primary">+91 79066 30435</Link>
+          <p className="text-neutral-500">
+            Phone:{' '}
+            <Link
+              href="tel:+917906630435"
+              className="text-neutral-300 transition-colors hover:text-[#c9a84c]"
+            >
+              +91 79066 30435
+            </Link>
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
-          <div className="flex flex-wrap items-center gap-4 text-sm text-text-secondary">
-            <Link href="/#services" className="hover:text-gold-primary">Services</Link>
-            <Link href="/#results" className="hover:text-gold-primary">Results</Link>
-            <Link href="/#founder" className="hover:text-gold-primary">Founder</Link>
-            <Link href="/#faq" className="hover:text-gold-primary">FAQ</Link>
-            <Link href="/#contact" className="hover:text-gold-primary">Contact</Link>
+        <nav className="flex flex-col gap-3 text-sm lg:items-end">
+          <span className="mb-1 text-xs font-semibold uppercase tracking-widest text-neutral-600">
+            Quick Links
+          </span>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <Link href="/#services" className="text-neutral-400 transition-colors hover:text-[#c9a84c]">Services</Link>
+            <Link href="/#results" className="text-neutral-400 transition-colors hover:text-[#c9a84c]">Results</Link>
+            <Link href="/#founder" className="text-neutral-400 transition-colors hover:text-[#c9a84c]">Founder</Link>
+            <Link href="/#faq" className="text-neutral-400 transition-colors hover:text-[#c9a84c]">FAQ</Link>
+            <Link href="/#contact" className="text-neutral-400 transition-colors hover:text-[#c9a84c]">Contact</Link>
           </div>
-        </div>
+        </nav>
       </div>
 
-      <div className="mt-8 border-t border-[rgba(212,175,55,0.08)] pt-6 text-sm text-text-secondary">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 lg:flex-row lg:justify-between">
-          <span>Copyright 2026 VrindavanDev - All rights reserved</span>
+      <div className="mt-10 border-t border-white/[0.06] pt-6 text-xs text-neutral-600">
+        <div className="mx-auto flex max-w-7xl flex-col gap-2 sm:flex-row sm:justify-between">
+          <span>Copyright 2026 Digitalcraft Studio. All rights reserved.</span>
           <span>Made with care in Vrindavan, India</span>
         </div>
       </div>

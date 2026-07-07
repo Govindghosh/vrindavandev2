@@ -5,25 +5,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://vrindavandev.in',
+      url: 'https://digitalcraftstudio.in',
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
-      url: 'https://vrindavandev.in/#services',
+      url: 'https://digitalcraftstudio.in/#services',
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://vrindavandev.in/#results',
+      url: 'https://digitalcraftstudio.in/#results',
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://vrindavandev.in/#contact',
+      url: 'https://digitalcraftstudio.in/#contact',
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,

@@ -29,10 +29,6 @@ const growthActions = [
 export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden px-5 pb-20 pt-12 sm:px-8 lg:pt-24">
-      <div
-        className="pointer-events-none absolute inset-0 bg-cover bg-top"
-        style={{ backgroundImage: 'url(/images/vrindavan_new_bg.webp)', opacity: 0.06 }}
-      />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,107,0,0.08),_transparent_18%),radial-gradient(circle_at_bottom_right,_rgba(212,175,55,0.09),_transparent_25%)]" />
 
       <div className="relative mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.12fr_0.88fr] lg:items-center">

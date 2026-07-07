@@ -21,7 +21,7 @@ const nextConfig = {
   },
   compress: true,
   experimental: {
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
+    optimizePackageImports: ['lucide-react', 'framer-motion', 'react-icons'],
   },
   poweredByHeader: false,
 }
