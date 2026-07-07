@@ -68,10 +68,12 @@ export default function FloatingLeadActions() {
   const isDesktop = useIsDesktop()
 
   useEffect(() => {
-    const offerTimer = window.setTimeout(() => setShowOffer(true), 900)
+    const showTimer = window.setTimeout(() => setShowOffer(true), 900)
+    const hideTimer = window.setTimeout(() => setShowOffer(false), 11000)
 
     return () => {
-      window.clearTimeout(offerTimer)
+      window.clearTimeout(showTimer)
+      window.clearTimeout(hideTimer)
     }
   }, [])
 
